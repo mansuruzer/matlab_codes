@@ -1,18 +1,4 @@
-%{
-Bu program kullanıcıdan ilk olarak toplam alan sayısı ve taralı alan
-sayısını alır.
-kullanıcıya sorulan taralı alanın (x,y) değeri taralı olmayan alanın taralı
-alandan çıkartılmadan önceki ağırlık merkezi koordinatlarıdır. daha
-açıklayıcı bir tanım bulamadığım için girilecek değeri bu şekilde
-adlandırdım.
-koordinatlar ve alanlar girildikten sonra taralı alan , taralı alanın
-ağırlık merkezinin x değeriyle çarpılır ardından boş alan, boş alanın x
-değeriyle çarpılarak ilk işlemden çıkartılır. ortay çıkan sonuç taralı
-alana bölünerek toplam taralı cismin ağırlık merkezi x ekseni için
-hesaplanır. Aynı işlem y değeri için de yapılır.
-merkez_X = (total_tarali_XcAc - total_non_tarali_XcAc) / (total_tarali_Ac - total_non_tarali_Ac);
 
-%}
 % kullanıcıdan tarali ve taralı olmayan bölüm sayılarını alıyoruz
 total_bolumler = input('Kaç tane bölüm olduğunu girin:\n');
 num_tarali = input('Kaç tane taralı alan var ? : \n');
