@@ -1,5 +1,6 @@
 # matlab_codes
-calculating_mass_center
+calculating_center_of_mass
+
 - This code, prepared by @mansuruzer, allows you to calculate the center of mass of complex objects.
 - The program first asks you to input the number of shaded or non-shaded regions.
 - After that, you need to provide the Xc, Yc, and area of all regions. (Xc and Yc are coordinates of each objects center of mass.)
