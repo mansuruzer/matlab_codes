@@ -1,15 +1,4 @@
-%{
-Bu program kullanıcıdan ilk olarak toplam alan sayısı ve taralı alan
-sayısını alır.
-büyük alan taralı alan olarak ifade ediliyor ve taralı olmayan alanın
-statik momenti büyük alanın statik momentinden çıkartılıp taralı alanın
-alanına bölünerek tüm taralı cismin x ve y koordiantları bulunur
-kullanıcıya sorulan taralı alanın (x,y) değeri taralı olmayan alanın taralı
-alandan çıkartılmadan önceki ağırlık merkezi koordinatlarıdır. daha
-açıklayıcı bir tanım bulamadığım için girilecek değeri bu şekilde
-adlandırdım.
-kordinatlar ve alanlar girildikten sonra toplam alan, x değeriyle çarpılır
-%}
+
 % kullanıcıdan tarali ve taralı olmayan bölüm sayılarını alıyoruz
 total_bolumler = input('Kaç tane bölüm olduğunu girin:\n');
 num_tarali = input('Kaç tane taralı alan var ? : \n');
