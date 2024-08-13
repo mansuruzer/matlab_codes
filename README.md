@@ -1,4 +1,4 @@
-# matlab_codes
+# calculation center of mass
 calculating center of mass
 
 - This code, prepared by @mansuruzer, allows you to calculate the center of mass of complex objects.
